@@ -5,6 +5,6 @@ const server = http.createServer((req, res) => {
   res.end("response provided");
 });
 
-server.listen("3211","192.168.1.12" ,() => {
+server.listen("3211",() => {
   console.log("server is running");
 });
